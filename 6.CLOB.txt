@@ -1,0 +1,4 @@
+--In the rto_user table, an attribute called photo is present. I have added a single photo to the last entry of this table. However, this image does not get printed correctly and its existence can be seen in the pgadmin4 gui
+
+insert into rto_user(u_id, name, address,aadhar_no,gender,contact,dob, photo) values (5,'no','noo',324224,'male',23423424,'1231-2-12',pg_read_binary_file('E:\Screenshot.png'));
+
